@@ -3,10 +3,8 @@ apiVersion: flux.weave.works/v1beta1
 kind: HelmRelease
 metadata:
   name: partner
-#  namespace: app
   annotations:
     fluxcd.io/automated: "true"
-#    fluxcd.io/tag.chart-image: semver:~4.0
 spec:
   releaseName: partner
   chart:
