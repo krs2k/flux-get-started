@@ -12,6 +12,7 @@ spec:
     name: order
     version: v1.2.8
   values:
+    logLevel: debug
     image:
       repository: eu.gcr.io/payticon-261013/payticon-order
       tag: v1.2.8
