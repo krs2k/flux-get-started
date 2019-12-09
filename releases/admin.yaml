@@ -1,17 +1,30 @@
-#---
-#apiVersion: flux.weave.works/v1beta1
-#kind: HelmRelease
-#metadata:
-#  name: admin
-#  annotations:
-#    fluxcd.io/automated: "true"
-#spec:
-#  releaseName: admin
-#  chart:
-#    repository: https://payticon-charts.devticon.com
-#    name: admin
-#    version: v1.0.10
-#  values:
-#    image:
-#      repository: eu.gcr.io/payticon-261013/payticon-soap-api
-#      tag: v1.0.10
+---
+apiVersion: flux.weave.works/v1beta1
+kind: HelmRelease
+metadata:
+  name: admin-ui
+  annotations:
+    fluxcd.io/automated: "true"
+spec:
+  releaseName: admin-ui
+  rollback:
+    enable: true
+  chart:
+    repository: https://payticon-charts.devticon.com
+    name: admin
+    version: v1.1.13
+  values:
+    gql:
+      playground: true
+    image:
+      repository: eu.gcr.io/payticon-261013/payticon-admin
+      tag: v1.1.13
+    ingress:
+      enabled: true
+      hosts:
+        - host: admin.staging.payticon.com
+          paths:
+            - ""
+      annotations:
+        kubernetes.io/ingress.class: traefik
+        ingress.kubernetes.io/whitelist-source-range: 18.197.220.18/32
