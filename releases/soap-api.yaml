@@ -13,14 +13,14 @@ spec:
   chart:
     repository: https://payticon-charts.devticon.com
     name: soap-api
-    version: v1.0.11
+    version: v1.0.12
   values:
     endpoint: https://soap.staging.payticon.com
     gql:
       playground: true
     image:
       repository: eu.gcr.io/payticon-261013/payticon-soap-api
-      tag: v1.0.11
+      tag: v1.0.12
     ingress:
       enabled: true
       hosts:
