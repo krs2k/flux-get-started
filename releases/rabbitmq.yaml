@@ -17,6 +17,9 @@ spec:
     image:
       repository: eu.gcr.io/payticon-261013/payticon-rabbitmq
       tag: 1.0.1
+    resources:
+      limits:
+        memory: 512Mi
     service:
       port: 15672
     ingress:
