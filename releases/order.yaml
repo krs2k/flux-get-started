@@ -1,0 +1,18 @@
+---
+apiVersion: flux.weave.works/v1beta1
+kind: HelmRelease
+metadata:
+  name: order
+  annotations:
+    fluxcd.io/automated: "true"
+spec:
+  releaseName: order
+  chart:
+    repository: https://payticon-charts.devticon.com
+    name: order
+    version: v1.2.7
+  values:
+    image:
+      repository: eu.gcr.io/payticon-261013/payticon-order
+      tag: v1.2.7
+

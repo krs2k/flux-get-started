@@ -1,0 +1,18 @@
+---
+apiVersion: flux.weave.works/v1beta1
+kind: HelmRelease
+metadata:
+  name: order-storage
+  annotations:
+    fluxcd.io/automated: "true"
+spec:
+  releaseName: order-storage
+  chart:
+    repository: https://payticon-charts.devticon.com
+    name: order-storage
+    version: v1.1.7
+  values:
+    image:
+      repository: eu.gcr.io/payticon-261013/payticon-order-storage
+      tag: v1.1.7
+
