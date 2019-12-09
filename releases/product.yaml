@@ -15,7 +15,7 @@ spec:
     postgresql:
       postgresPassword: test1234
     image:
-      repository: eu.gcr.io/payticon-261013/payticon-prodcut
+      repository: eu.gcr.io/payticon-261013/payticon-product
       tag: v1.2.7
     resources:
       requests:
