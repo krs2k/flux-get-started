@@ -15,6 +15,7 @@ spec:
     name: soap-api
     version: v1.0.10
   values:
+    endpoint: https://soap.staging.payticon.com
     gql:
       playground: true
     image:
