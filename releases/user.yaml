@@ -10,9 +10,9 @@ spec:
   chart:
     repository: https://payticon-charts.devticon.com
     name: user
-    version: 1.0.7
+    version: 1.0.10
   values:
     adminPassword: "Test1234"
     image:
       repository: eu.gcr.io/payticon-261013/payticon-user
-      tag: 1.0.7
+      tag: 1.0.10
