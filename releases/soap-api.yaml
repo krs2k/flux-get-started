@@ -13,7 +13,7 @@ spec:
   chart:
     repository: https://payticon-charts.devticon.com
     name: soap-api
-    version: v1.0.15
+    version: v1.0.16
   values:
     endpoint: https://soap.staging.payticon.com
     apm:
