@@ -18,6 +18,7 @@ spec:
     endpoint: https://soap.staging.payticon.com
     apm:
       enabled: true
+      serviceUrl: https://apm.devticon.com
       serviceName: payticon-soap-api
       env: payticon-staging
       captureBody: error
