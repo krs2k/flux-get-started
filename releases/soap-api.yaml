@@ -21,7 +21,7 @@ spec:
       serviceUrl: https://apm.devticon.com
       serviceName: payticon-soap-api
       env: payticon-staging
-      captureBody: error
+      captureBody: all
       errorOnAbortedRequests: true
       logUncaughtExceptions: true
     gql:
