@@ -28,7 +28,7 @@ spec:
       playground: true
     image:
       repository: eu.gcr.io/payticon-261013/payticon-soap-api
-      tag: v1.0.13
+      tag: v1.0.14
     ingress:
       enabled: true
       hosts:
