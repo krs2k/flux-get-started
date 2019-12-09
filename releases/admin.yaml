@@ -18,13 +18,13 @@ spec:
       playground: true
     image:
       repository: eu.gcr.io/payticon-261013/payticon-admin
-      tag: v1.1.13
+      tag: 1ae14908b073962e4b8ab10b2dde7866080bd291
     ingress:
       enabled: true
       hosts:
-        - host: admin.staging.payticon.com
-          paths:
-            - ""
+      - host: admin.staging.payticon.com
+        paths:
+        - ""
       annotations:
         kubernetes.io/ingress.class: traefik
         ingress.kubernetes.io/whitelist-source-range: 18.197.220.18/32
