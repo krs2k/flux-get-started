@@ -14,4 +14,4 @@ spec:
   values:
     image:
       repository: eu.gcr.io/payticon-261013/payticon-import
-      tag: v1.0.2
+      tag: v1.0.3
