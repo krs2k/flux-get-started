@@ -14,5 +14,3 @@ spec:
   values:
     postgresql:
       postgresPassword: test1234
-      persistence:
-        enabled: false
