@@ -1,0 +1,21 @@
+---
+apiVersion: flux.weave.works/v1beta1
+kind: HelmRelease
+metadata:
+  name: supplier
+  annotations:
+    fluxcd.io/automated: "true"
+spec:
+  releaseName: supplier
+  chart:
+    repository: https://payticon-charts.devticon.com
+    name: supplier
+    version: v2.0.1
+  values:
+    image:
+      repository: eu.gcr.io/payticon-261013/payticon-supplier
+      tag: v2.0.1
+    cipher:
+      service: epay_code_cipher
+      iv: 612D2DFF92F9854E
+      key: 612D2DFF92F9854E
