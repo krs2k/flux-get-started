@@ -10,7 +10,7 @@ spec:
   chart:
     repository: https://payticon-charts.devticon.com
     name: order
-    version: v1.2.7
+    version: v1.2.8
   values:
     image:
       repository: eu.gcr.io/payticon-261013/payticon-order
