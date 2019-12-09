@@ -14,7 +14,7 @@ spec:
   values:
     image:
       repository: eu.gcr.io/payticon-261013/payticon-supplier
-      tag: v2.0.1
+      tag: v2.0.2
     values:
       postgresql:
         postgresPassword: test1234
