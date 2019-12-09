@@ -17,4 +17,4 @@ spec:
       tag: v1.0.3
     resources:
       requests:
-        cpu: "0.25"
+        cpu: "50m"

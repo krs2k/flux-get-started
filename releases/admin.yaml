@@ -31,4 +31,4 @@ spec:
         ingress.kubernetes.io/whitelist-source-range: 18.197.220.18/32
     resources:
       requests:
-        cpu: "0.10"
+        cpu: "50m"
