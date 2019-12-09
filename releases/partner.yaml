@@ -8,7 +8,7 @@ metadata:
     fluxcd.io/automated: "true"
 #    fluxcd.io/tag.chart-image: semver:~4.0
 spec:
-  releaseName: user
+  releaseName: partner
   chart:
     repository: https://payticon-charts.devticon.com
     name: partner
