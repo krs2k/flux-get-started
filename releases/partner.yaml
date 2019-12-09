@@ -16,4 +16,4 @@ spec:
       postgresPassword: test1234
     image:
       repository: eu.gcr.io/payticon-261013/payticon-partner
-      tag: v1.0.2
+      tag: v1.0.4
