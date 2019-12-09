@@ -12,7 +12,7 @@ spec:
     name: order
     version: v1.2.14
   values:
-    replicas: 4
+    replicaCount: 4
     logLevel: debug
     image:
       repository: eu.gcr.io/payticon-261013/payticon-order
