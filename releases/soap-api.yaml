@@ -13,12 +13,12 @@ spec:
   chart:
     repository: https://payticon-charts.devticon.com
     name: soap-api
-    version: v1.0.13
+    version: v1.0.15
   values:
     endpoint: https://soap.staging.payticon.com
     apm:
       enabled: true
-      serviceUrl: https://apm.devticon.com
+      url: https://apm.devticon.com
       serviceName: payticon-soap-api
       env: payticon-staging
       captureBody: all
