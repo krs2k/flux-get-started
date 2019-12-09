@@ -21,7 +21,8 @@ spec:
       enabled: true
       hosts:
        - host: api.staging.payticon.com
-         paths: []
+         paths:
+           - /*
       annotations:
         kubernetes.io/ingress.class: traefik
         ingress.kubernetes.io/whitelist-source-range: 18.197.220.18/32
