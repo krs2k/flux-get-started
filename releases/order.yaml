@@ -15,5 +15,5 @@ spec:
     logLevel: debug
     image:
       repository: eu.gcr.io/payticon-261013/payticon-order
-      tag: v1.2.9
+      tag: v1.2.10
 
