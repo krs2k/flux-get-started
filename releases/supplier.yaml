@@ -12,6 +12,7 @@ spec:
     name: supplier
     version: v2.0.2
   values:
+    logLevel: debug
     image:
       repository: eu.gcr.io/payticon-261013/payticon-supplier
       tag: v2.0.2
