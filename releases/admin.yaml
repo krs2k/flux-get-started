@@ -1,0 +1,17 @@
+#---
+#apiVersion: flux.weave.works/v1beta1
+#kind: HelmRelease
+#metadata:
+#  name: admin
+#  annotations:
+#    fluxcd.io/automated: "true"
+#spec:
+#  releaseName: admin
+#  chart:
+#    repository: https://payticon-charts.devticon.com
+#    name: admin
+#    version: v1.0.10
+#  values:
+#    image:
+#      repository: eu.gcr.io/payticon-261013/payticon-soap-api
+#      tag: v1.0.10

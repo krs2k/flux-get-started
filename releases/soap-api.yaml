@@ -2,17 +2,16 @@
 apiVersion: flux.weave.works/v1beta1
 kind: HelmRelease
 metadata:
-  name: api-gateway
+  name: soap-api
   annotations:
     fluxcd.io/automated: "true"
 spec:
-  releaseName: api-gateway
+  releaseName: soap-api
   chart:
     repository: https://payticon-charts.devticon.com
-    name: api-gateway
-    version: v1.0.9
+    name: soap-api
+    version: v1.0.10
   values:
     image:
-      repository: eu.gcr.io/payticon-261013/payticon-api-gateway
-      tag: v1.0.9
-
+      repository: eu.gcr.io/payticon-261013/payticon-soap-api
+      tag: v1.0.10
