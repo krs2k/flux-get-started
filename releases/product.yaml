@@ -9,5 +9,5 @@ spec:
   releaseName: product
   chart:
     repository: https://payticon-charts.devticon.com
-    name: partner
+    name: product
     version: 1.2.6
