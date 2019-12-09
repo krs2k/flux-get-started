@@ -16,7 +16,7 @@ spec:
   values:
     image:
       repository: eu.gcr.io/payticon-261013/payticon-rabbitmq
-      tag: 1.0.1
+      tag: 1.0.0
     resources:
       limits:
         memory: 512Mi
@@ -25,9 +25,9 @@ spec:
     ingress:
       enabled: true
       hosts:
-        - host: rabbitmq.staging.payticon.com
-          paths:
-            - ""
+      - host: rabbitmq.staging.payticon.com
+        paths:
+        - ""
       annotations:
         kubernetes.io/ingress.class: traefik
         ingress.kubernetes.io/whitelist-source-range: 18.197.220.18/32
