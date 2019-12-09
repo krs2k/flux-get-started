@@ -23,3 +23,6 @@ spec:
       service: epay_code_cipher
       iv: 612D2DFF92F9854E
       key: 612D2DFF92F9854E
+    resources:
+      requests:
+        cpu: "0.5"

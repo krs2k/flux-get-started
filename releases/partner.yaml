@@ -17,3 +17,6 @@ spec:
     image:
       repository: eu.gcr.io/payticon-261013/payticon-partner
       tag: v1.0.4
+    resources:
+      requests:
+        cpu: "0.5"

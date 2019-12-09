@@ -17,4 +17,6 @@ spec:
     image:
       repository: eu.gcr.io/payticon-261013/payticon-order-storage
       tag: v1.1.9
-
+    resources:
+      requests:
+        cpu: "0.5"

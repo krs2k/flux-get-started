@@ -15,3 +15,6 @@ spec:
     image:
       repository: eu.gcr.io/payticon-261013/payticon-import
       tag: v1.0.3
+    resources:
+      requests:
+        cpu: "0.5"
