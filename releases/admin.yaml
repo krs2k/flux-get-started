@@ -14,7 +14,7 @@ spec:
     name: admin
     version: v1.1.13
   values:
-    apiGatewayUrl: api.staging.payticon.com
+    apiGatewayUrl: https://api.staging.payticon.com
     gql:
       playground: true
     image:
