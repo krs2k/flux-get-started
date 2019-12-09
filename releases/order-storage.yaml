@@ -16,5 +16,5 @@ spec:
       postgresPassword: Test1234
     image:
       repository: eu.gcr.io/payticon-261013/payticon-order-storage
-      tag: v1.1.7
+      tag: v1.1.8
 
