@@ -2,11 +2,11 @@
 apiVersion: flux.weave.works/v1beta1
 kind: HelmRelease
 metadata:
-  name: partner
+  name: product
   annotations:
     fluxcd.io/automated: "true"
 spec:
-  releaseName: partner
+  releaseName: product
   chart:
     repository: https://payticon-charts.devticon.com
     name: partner
