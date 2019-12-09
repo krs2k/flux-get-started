@@ -6,13 +6,13 @@ metadata:
   annotations:
     fluxcd.io/automated: "true"
 spec:
-  releaseName: mock-supplier
+  releaseName: api-gateway
   chart:
     repository: https://payticon-charts.devticon.com
-    name: mock-supplier
-    version: v1.0.2
+    name: api-gateway
+    version: v1.0.7
   values:
     image:
-      repository: eu.gcr.io/payticon-261013/payticon-mock-supplier
-      tag: v1.0.2
+      repository: eu.gcr.io/payticon-261013/payticon-api-gateway
+      tag: v1.0.7
 
