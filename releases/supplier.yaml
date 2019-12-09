@@ -15,6 +15,9 @@ spec:
     image:
       repository: eu.gcr.io/payticon-261013/payticon-supplier
       tag: v2.0.1
+    values:
+      postgresql:
+        postgresPassword: test1234
     cipher:
       service: epay_code_cipher
       iv: 612D2DFF92F9854E

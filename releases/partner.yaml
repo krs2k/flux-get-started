@@ -11,3 +11,6 @@ spec:
     repository: https://payticon-charts.devticon.com
     name: partner
     version: 1.0.2
+  values:
+    postgresql:
+      postgresPassword: test1234
