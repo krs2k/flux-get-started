@@ -18,7 +18,7 @@ spec:
     endpoint: https://soap.staging.payticon.com
     apm:
       enabled: true
-      url: https://apm.devticon.com
+      url: https://apm.devticon.com:443
       serviceName: payticon-soap-api
       env: payticon-staging
       captureBody: all
