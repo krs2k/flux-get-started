@@ -15,9 +15,9 @@ spec:
     image:
       repository: eu.gcr.io/payticon-261013/payticon-api-gateway
       tag: v1.0.9
-    ingress:
-      enabled: true
-      host: api.staging.payticon.com
+#    ingress:
+#      enabled: true
+#      host: api.staging.payticon.com
 #      annotations:
 #        kubernetes.io/ingress.class: traefik
 #        ingress.kubernetes.io/whitelist-source-range: 18.197.220.18/32
