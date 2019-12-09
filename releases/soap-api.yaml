@@ -16,6 +16,13 @@ spec:
     version: v1.0.12
   values:
     endpoint: https://soap.staging.payticon.com
+    apm:
+      enabled: true
+      serviceName: payticon-soap-api
+      env: payticon-staging
+      captureBody: error
+      errorOnAbortedRequests: true
+      logUncaughtExceptions: true
     gql:
       playground: true
     image:
