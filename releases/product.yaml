@@ -10,7 +10,10 @@ spec:
   chart:
     repository: https://payticon-charts.devticon.com
     name: product
-    version: 1.2.6
+    version: v1.2.6
   values:
     postgresql:
       postgresPassword: test1234
+    image:
+      repository: eu.gcr.io/payticon-261013/payticon-prodcut
+      tag: v1.2.6

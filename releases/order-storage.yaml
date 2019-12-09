@@ -10,7 +10,7 @@ spec:
   chart:
     repository: https://payticon-charts.devticon.com
     name: order-storage
-    version: v1.1.7
+    version: v1.1.9
   values:
     postgresql:
       postgresPassword: Test1234

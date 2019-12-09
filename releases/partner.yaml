@@ -10,7 +10,10 @@ spec:
   chart:
     repository: https://payticon-charts.devticon.com
     name: partner
-    version: 1.0.2
+    version: v1.0.2
   values:
     postgresql:
       postgresPassword: test1234
+    image:
+      repository: eu.gcr.io/payticon-261013/payticon-partner
+      tag: v1.0.2

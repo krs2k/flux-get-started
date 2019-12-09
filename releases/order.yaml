@@ -10,7 +10,7 @@ spec:
   chart:
     repository: https://payticon-charts.devticon.com
     name: order
-    version: v1.2.8
+    version: v1.2.14
   values:
     logLevel: debug
     image:

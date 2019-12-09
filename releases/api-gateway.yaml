@@ -12,7 +12,7 @@ spec:
   chart:
     repository: https://payticon-charts.devticon.com
     name: api-gateway
-    version: v1.0.9
+    version: v1.0.11
   values:
     gql:
       playground: true

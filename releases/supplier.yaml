@@ -10,7 +10,7 @@ spec:
   chart:
     repository: https://payticon-charts.devticon.com
     name: supplier
-    version: v2.0.2
+    version: v2.0.5
   values:
     logLevel: debug
     image:
