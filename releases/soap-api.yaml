@@ -1,30 +1,31 @@
-#---
-#apiVersion: flux.weave.works/v1beta1
-#kind: HelmRelease
-#metadata:
-#  name: soap-api
-#  annotations:
-#    fluxcd.io/automated: "true"
-#spec:
-#  releaseName: soap-api
-#  rollback:
-#    enable: true
-#  chart:
-#    repository: https://payticon-charts.devticon.com
-#    name: soap-api
-#    version: v1.0.10
-#  values:
-#    gql:
-#      playground: true
-#    image:
-#      repository: eu.gcr.io/payticon-261013/payticon-soap-api
-#      tag: v1.0.10
-#    ingress:
-#      enabled: true
-#      hosts:
-#        - host: soap.staging.payticon.com
-#          paths:
-#            - ""
-#      annotations:
-#        kubernetes.io/ingress.class: traefik
-#        ingress.kubernetes.io/whitelist-source-range: 18.197.220.18/32
+---
+apiVersion: flux.weave.works/v1beta1
+kind: HelmRelease
+metadata:
+  name: soap-api
+  annotations:
+    fluxcd.io/automated: "true"
+spec:
+  releaseName: soap-api
+  rollback:
+    enable: true
+    force: true
+  chart:
+    repository: https://payticon-charts.devticon.com
+    name: soap-api
+    version: v1.0.10
+  values:
+    gql:
+      playground: true
+    image:
+      repository: eu.gcr.io/payticon-261013/payticon-soap-api
+      tag: v1.0.10
+    ingress:
+      enabled: true
+      hosts:
+        - host: soap.staging.payticon.com
+          paths:
+            - ""
+      annotations:
+        kubernetes.io/ingress.class: traefik
+        ingress.kubernetes.io/whitelist-source-range: 18.197.220.18/32
