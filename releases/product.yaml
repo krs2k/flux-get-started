@@ -13,4 +13,4 @@ spec:
     version: 1.2.6
   values:
     postgresql:
-      postgresPassword: test1234
+      postgresPassword: Test1234
