@@ -19,4 +19,4 @@ spec:
       tag: v1.0.4
     resources:
       requests:
-        cpu: "0.5"
+        cpu: "0.25"

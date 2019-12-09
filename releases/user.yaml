@@ -16,3 +16,6 @@ spec:
     image:
       repository: eu.gcr.io/payticon-261013/payticon-user
       tag: v1.0.18
+    resources:
+      requests:
+        cpu: "0.25"
