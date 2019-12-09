@@ -15,4 +15,4 @@ spec:
     adminPassword: "Test1234"
     image:
       repository: eu.gcr.io/payticon-261013/payticon-user
-      tag: v1.0.16
+      tag: v1.0.17
