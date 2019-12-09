@@ -19,4 +19,5 @@ spec:
       tag: v1.1.9
     resources:
       requests:
-        cpu: "50m"
+        cpu: "25m"
+        memory: "80M"

@@ -19,9 +19,9 @@ spec:
       tag: 1.0.0
     resources:
       requests:
-        cpu: "100m"
+        cpu: "60m"
       limits:
-        memory: 512Mi
+        memory: "256M"
     service:
       port: 15672
     ingress:
