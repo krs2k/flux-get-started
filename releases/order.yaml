@@ -14,5 +14,5 @@ spec:
   values:
     image:
       repository: eu.gcr.io/payticon-261013/payticon-order
-      tag: v1.2.7
+      tag: v1.2.8
 
