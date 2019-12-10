@@ -16,7 +16,7 @@ spec:
       postgresPassword: test1234
     image:
       repository: eu.gcr.io/payticon-261013/payticon-product
-      tag: v1.2.11
+      tag: v1.2.12
     resources:
       requests:
         cpu: "25m"
