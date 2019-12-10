@@ -18,7 +18,7 @@ spec:
       playground: true
     image:
       repository: eu.gcr.io/payticon-261013/payticon-api-gateway
-      tag: v1.0.14
+      tag: v1.0.15
     ingress:
       enabled: true
       hosts:
