@@ -15,7 +15,7 @@ spec:
     logLevel: debug
     image:
       repository: eu.gcr.io/payticon-261013/payticon-supplier
-      tag: v2.0.7
+      tag: v2.0.8
     values:
       postgresql:
         postgresPassword: test1234
