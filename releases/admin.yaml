@@ -19,7 +19,7 @@ spec:
       playground: true
     image:
       repository: eu.gcr.io/payticon-261013/payticon-admin
-      tag: 1ae14908b073962e4b8ab10b2dde7866080bd291
+      tag: v1.1.15
     ingress:
       enabled: true
       hosts:
